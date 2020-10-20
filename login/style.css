@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);  
+    text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    color: rgb(43, 6, 44);
+    background:rgb(116, 107, 107);
+    width: 120px;
+    margin: 20px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: chocolate;
+}
+
+header {
+    border-radius: 2px soild #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: #333;
+}
+
